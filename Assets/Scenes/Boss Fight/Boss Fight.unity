@@ -135,17 +135,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneManager
       objectReference: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/Boss/Boss Fight.unity
+    - target: {fileID: 8467233679332913862, guid: b9d8fc7c8283272439775afdb0c6205a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 47.730404
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467233679332913862, guid: b9d8fc7c8283272439775afdb0c6205a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 80.97939
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467233679332913862, guid: b9d8fc7c8283272439775afdb0c6205a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 47.730404
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467233679332913862, guid: b9d8fc7c8283272439775afdb0c6205a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.65088
+========
     - target: {fileID: 8936636410860150934, guid: 512278b4fd6bdb0478f025e2cdceba8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1067.5262
+>>>>>>>> c22fdd9efae73e20e8927da2467adaec85467995:Assets/Scenes/Boss Fight/Boss Fight.unity
       objectReference: {fileID: 0}
     - target: {fileID: 8936636410860150934, guid: 512278b4fd6bdb0478f025e2cdceba8a, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<<< HEAD:Assets/Scenes/Boss/Boss Fight.unity
+      value: 23.631
+========
       value: 522.6568
+>>>>>>>> c22fdd9efae73e20e8927da2467adaec85467995:Assets/Scenes/Boss Fight/Boss Fight.unity
       objectReference: {fileID: 0}
     - target: {fileID: 8936636410860150934, guid: 512278b4fd6bdb0478f025e2cdceba8a, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<<< HEAD:Assets/Scenes/Boss/Boss Fight.unity
+      value: -44.433
+========
       value: 4.5152235
+>>>>>>>> c22fdd9efae73e20e8927da2467adaec85467995:Assets/Scenes/Boss Fight/Boss Fight.unity
       objectReference: {fileID: 0}
     - target: {fileID: 8936636410860150934, guid: 512278b4fd6bdb0478f025e2cdceba8a, type: 3}
       propertyPath: m_LocalRotation.w
