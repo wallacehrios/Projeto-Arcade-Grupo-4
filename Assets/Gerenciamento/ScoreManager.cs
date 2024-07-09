@@ -4,11 +4,13 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
     public TextMeshProUGUI scoreText;
+    public GameObject TelaDerrota;
     int score = 0;
     int boss = 0;
     int bossGoal = 1;
@@ -21,6 +23,7 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         scoreText.text = score.ToString() + " PONTOS";
+        TelaDerrota.SetActive(false);
     }
     void Update()
     {
@@ -44,7 +47,24 @@ public class ScoreManager : MonoBehaviour
     {
         boss += 1;
     }
-    public void Lose(){
-        UnityEngine.SceneManagement.SceneManager.LoadScene ("LoseScreen");
+    public void Lose()
+    {
+        TelaDerrota.SetActive(true);
+        Time.timeScale = 0f;
+    }
+    public void ReiniciarFase1()
+    {
+        SceneManager.LoadScene("PrimeiraFase");
+        Time.timeScale = 1f;
+    }
+    public void ReiniciarFase2()
+    {
+        SceneManager.LoadScene("SegundaFase");
+        Time.timeScale = 1f;
+    }
+    public void ReiniciarBossFight()
+    {
+        SceneManager.LoadScene("Boss Fight");
+        Time.timeScale = 1f;
     }
 }

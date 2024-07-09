@@ -120,10 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 15
-  speed: 60
-  collectSound: {fileID: 8300000, guid: bee19987cd385bc40aa592c86e7a02d9, type: 3}
-  audioMixer: {fileID: -3274521541362423100, guid: 5b2070a8c54cf9345b37d6661f81a40c, type: 2}
-  delayBeforeDisappear: 0.2
+  speed: 90
 --- !u!54 &-3213055438182905072
 Rigidbody:
   m_ObjectHideFlags: 0

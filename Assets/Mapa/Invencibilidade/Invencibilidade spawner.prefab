@@ -49,4 +49,4 @@ MonoBehaviour:
   maxPosition: {x: -3300, y: 17, z: -3300}
   minRotation: {x: 0, y: 0, z: 0}
   maxRotation: {x: 0, y: 0, z: 0}
-  quantidade: 15
+  quantidade: 25

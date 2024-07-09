@@ -13,11 +13,13 @@ public class VidaBoss : MonoBehaviour
     public AudioMixerGroup audioMixer;
     public float volumeAudio = 1f;
     private AudioSource audioSource; // Componente de áudio para reproduzir o som
+    public BossBarraVida bossBarraVida;
 
     void Start()
     {
         // Define a quantidade inicial de pontos de vida para o valor máximo
         currentHealth = maxHealth;
+        bossBarraVida.SetMaxHealth(maxHealth);
 
         // Adiciona um componente de áudio ao inimigo
         audioSource = gameObject.AddComponent<AudioSource>();
@@ -40,6 +42,7 @@ public class VidaBoss : MonoBehaviour
     {
         // Reduz os pontos de vida do inimigo
         currentHealth -= damageAmount;
+        bossBarraVida.SetHealth(currentHealth);
         Debug.Log("Inimigo tomou dano, vida atual: " + currentHealth);
 
         // Reproduz o som de dano

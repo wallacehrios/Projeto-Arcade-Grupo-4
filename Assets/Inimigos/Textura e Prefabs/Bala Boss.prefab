@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25.003395, y: 22.968212, z: -45.74}
-  m_LocalScale: {x: 24.864193, y: 24.864193, z: 24.864193}
+  m_LocalScale: {x: 17.172455, y: 17.172455, z: 17.172455}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90e12394ce5218541a50bd77a2e440c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 30
-  speed: 200
+  damageAmount: 20
+  speed: 180
 --- !u!135 &-609919137484388050
 SphereCollider:
   m_ObjectHideFlags: 0

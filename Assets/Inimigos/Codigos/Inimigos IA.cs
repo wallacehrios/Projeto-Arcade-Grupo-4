@@ -11,6 +11,7 @@ public class InimigosIA : MonoBehaviour
     // Declara��o de vari�veis p�blicas configur�veis no editor do Unity
     public float RaioVisao = 20; // Raio de vis�o do inimigo para detectar o jogador
     public float velocidadeGiro = 1f; // Velocidade com que o inimigo gira para olhar o jogador
+    public float diastanciaTiro = 0f;
     public GameObject balaCanhao; // Prefab da bala de canh�o que ser� instanciada ao atirar
     public Transform[] pontosTiro; // Array de pontos de tiro, onde as balas ser�o instanciadas
     public float tempoSumir = 3f; // Tempo at� que a bala de canh�o instanciada seja destru�da
@@ -49,7 +50,7 @@ public class InimigosIA : MonoBehaviour
             agent.SetDestination(alvo.position);
 
             // Se o inimigo estiver dentro da dist�ncia de parada do NavMeshAgent
-            if (distancia <= agent.stoppingDistance)
+            if (distancia <= diastanciaTiro)
             {
                 // Chama o m�todo para fazer o inimigo olhar para o jogador
                 OlharAlvo();
